@@ -1,0 +1,234 @@
+{
+	"info": {
+		"_postman_id": "ddaa8aed-d051-4c22-884a-1f19fa40f358",
+		"name": "Postman_HW_1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "EP_1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{vks}}/get_method?name=Victor&age=49",
+					"host": [
+						"{{vks}}"
+					],
+					"path": [
+						"get_method"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Victor"
+						},
+						{
+							"key": "age",
+							"value": "49"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Victor",
+							"type": "default"
+						},
+						{
+							"key": "age",
+							"value": "49",
+							"type": "default"
+						},
+						{
+							"key": "salary",
+							"value": "1250",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{vks}}/user_info_3",
+					"host": [
+						"{{vks}}"
+					],
+					"path": [
+						"user_info_3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{vks}}/object_info_1?name=Denis&age=50&weight=100",
+					"host": [
+						"{{vks}}"
+					],
+					"path": [
+						"object_info_1"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Denis"
+						},
+						{
+							"key": "age",
+							"value": "50"
+						},
+						{
+							"key": "weight",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{vks}}/object_info_2?name=Bengamin&age=38&salary=1500",
+					"host": [
+						"{{vks}}"
+					],
+					"path": [
+						"object_info_2"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Bengamin"
+						},
+						{
+							"key": "age",
+							"value": "38"
+						},
+						{
+							"key": "salary",
+							"value": "1500"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{vks}}/object_info_3?name=Jochan&age=42&salary=1800",
+					"host": [
+						"{{vks}}"
+					],
+					"path": [
+						"object_info_3"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Jochan"
+						},
+						{
+							"key": "age",
+							"value": "42"
+						},
+						{
+							"key": "salary",
+							"value": "1800"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP-6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{vks}}/object_info_4?name=Bonny&age=23&salary=650",
+					"host": [
+						"{{vks}}"
+					],
+					"path": [
+						"object_info_4"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Bonny"
+						},
+						{
+							"key": "age",
+							"value": "23"
+						},
+						{
+							"key": "salary",
+							"value": "650"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_7",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Ingrid",
+							"type": "default"
+						},
+						{
+							"key": "age",
+							"value": "34",
+							"type": "default"
+						},
+						{
+							"key": "salary",
+							"value": "1850",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{vks}}/user_info_2",
+					"host": [
+						"{{vks}}"
+					],
+					"path": [
+						"user_info_2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
